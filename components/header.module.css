@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10vw;
+  height: 10vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.logo {
+  height: 64px;
+  margin: 10px;
+  color: #006eff;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.title {
+  color: #151515;
+  padding: 0 1vw;
+}
+
+.link {
+  height: 40px;
+  line-height: 40px;
+  background-color: #006eff;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.link:hover {
+  cursor: pointer;
+}

@@ -1,12 +1,16 @@
 import Link from "next/link";
+import Header from "../components/header";
 
 export default function AboutPage() {
   return (
-    <div>
-      About us{" "}
-      <Link href="/">
-        <a>Home Page</a>
-      </Link>
-    </div>
+    <>
+      <Header></Header>
+      <div>
+        About us{" "}
+        <Link href="/">
+          <a>Home Page</a>
+        </Link>
+      </div>
+    </>
   );
 }
